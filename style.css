@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Rubik:ital,wght@0,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Mulish:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;600&display=swap');
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 
 @import 'animate.css';
 
 :root {
-    --font-primary: 
+    --font-primary: 'Figtree', sans-serif;
+    --font-secundary: 'Rubik', sans-serif;
+    --font-secundary2: Century Gothic, sans-serif;
+    --font-terciary: 'Mulish', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+    
 }
 
 * {
@@ -15,6 +19,8 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*=================Home=================*/
 
 .hamburguer {
     background-color: #1d1d1d;
@@ -101,7 +107,7 @@ header {
 .banner h1 {
     color: #fff;
     font-size: 3em;
-    font-family: 'Figtree', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 600;
     text-shadow: 0.2rem 0.2rem 2px rgba(0, 0, 0, 0.201);
     margin-bottom: 20px;
@@ -109,7 +115,7 @@ header {
 }
 
 .banner p {
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-secundary);
     font-size: 1.7em;
     color: #fff;
     text-shadow: 0.2rem 0.2rem 2px rgba(0, 0, 0, 0.201);
@@ -118,7 +124,7 @@ header {
 }
 
 .banner button {
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-secundary);
     font-size: 1.1em;
     text-transform: uppercase;
     color: #fff;
@@ -144,9 +150,6 @@ header {
     }
 }
 
-.banner button:hover {
-    opacity: 0.8;
-}
 
 .sidebar {
     width: 20rem;
@@ -176,7 +179,7 @@ header {
 }
 
 .menu-link {
-    font-family: 'Mulish', sans-serif;
+    font-family: var(--font-terciary);
     font-size: 1.6em;
     color: black;
 }
@@ -199,3 +202,57 @@ header {
     align-items: center;
     border-radius: 50%;
 }
+
+/*=================Sobre-mim=================*/
+
+.container-sobre {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container-sobre img {
+    width: 350px;
+    height: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.267), 4px 4px 6px rgba(0, 0, 0, 0.355);
+}
+
+.sobre-mimText {
+    color: black;
+    width: 550px;
+}
+
+.sobre-mimText h2 {
+    font-family: var(--font-secundary2);
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sobre-mimText h3 {
+    font-family: var(--font-secundary);
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.sobre-mimText span {
+    color: #FA7B1F;
+}
+
+.sobre-mimText p {
+    text-align: justify;
+    font-family: var(--font-text);
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+

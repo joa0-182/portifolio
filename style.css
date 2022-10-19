@@ -217,7 +217,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 1200px;
+    width: 1156px;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -235,6 +235,7 @@ header {
 .sobre-mimText {
     color: black;
     width: 550px;
+    margin: 20px;
 }
 
 .sobre-mimText h2 {
@@ -268,4 +269,5 @@ header {
 
 
 /*=================Habilidades=================*/
+
 

@@ -156,7 +156,7 @@ header {
 .sidebar {
     width: 20rem;
     height: 100vh;
-    background-color: #fff;
+    background-color: rgb(246, 245, 245);
     position: fixed;
     top: 0;
     right: -20rem;
@@ -166,6 +166,7 @@ header {
 
 .show-menu .sidebar {
     right: 0;
+    box-shadow: -5px 3px 6px rgb(0 0 0 / 15%);
 }
 
 .menu {
@@ -177,13 +178,20 @@ header {
 
 .menu-item {
     text-align: center;
-    padding: 3px;
+    padding: 6px;
 }
 
 .menu-link {
     font-family: var(--font-terciary);
     font-size: 1.6em;
+    color: rgb(61, 61, 61);
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    font-size: 1.8em;
     color: black;
+    transition: 0.2s;
 }
 
 .social-media {

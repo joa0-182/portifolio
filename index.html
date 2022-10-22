@@ -17,23 +17,23 @@
             <div class="line" id="line2"></div>
             <div class="line" id="line3"></div>
         </div>
-        <header>
+        <header id="Home">
             <div class="img-wrapper">
             </div>
             <div class="banner">
                 <h1>Web Developer Full Stack</h1>
                 <p>João Pedro Maria</p>
-                <button>Saiba mais</button>
+                <a href="#SobreMim"><button>Saiba mais</button></a>
             </div>
         </header>
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Sobre mim</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Habilidades</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#Home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#SobreMim" class="menu-link">Sobre mim</a></li>
+                    <li class="menu-item"><a href="#Habilidades" class="menu-link">Habilidades</a></li>
+                    <li class="menu-item"><a href="#Projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#Contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -43,7 +43,7 @@
             </div>
         </aside>
         <!--SobreMim-->
-        <section class="container-sobre">
+        <section class="container-sobre" id="SobreMim">
             <div class="main-sobre">
                 <img src="img/foto.jpg" alt="minha foto">
                 <div class="sobre-mimText">
@@ -62,8 +62,8 @@
                 </div>
             </div>
         </section>
-        <section class="container-habilidades">
-            <div class="centralizar-hab">
+        <section class="container-habilidades" id="Habilidades">
+            <div>
                 <div class="txtHabilidade">
                     <h2>Habilidades</h2>
                     <div class="descricao-hab">
@@ -96,11 +96,15 @@
                                 <img class="icon-hab" src="img/icons/ionic.png" alt="Ionic">
                             </div>
                         </div>
+                        <div class="descricao-hab-txt">
+                            <h3>/* nome linguagem */</h3>
+                            <p>/* passe o mause nos card's para ler a descrição*/</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-          <!-- <section id="container-projetos">
+        <!-- <section id="container-projetos">
             <div class="centralizar-projetos">
                 <h2>Projetos</h2>
                 <div class="itens-projeto">
@@ -137,4 +141,5 @@
     </div>
 </body>
 <script src="scripts.js"></script>
+
 </html>

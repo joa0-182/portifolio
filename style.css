@@ -20,7 +20,9 @@
     text-decoration: none;
 }
 
-/*=================Home=================*/
+/*=============================================*/
+/*=====================Home====================*/
+/*=============================================*/
 
 .hamburguer {
     background-color: #1d1d1d;
@@ -230,7 +232,9 @@ header {
     transition: 0.3s;
 }
 
-/*=================Sobre-mim=================*/
+/*=============================================*/
+/*==================Sobre Mim==================*/
+/*=============================================*/
 
 .container-sobre {
     width: 100%;
@@ -289,12 +293,10 @@ header {
     line-height: 20px;
 }
 
-    
 
-
-
+/*=============================================*/
 /*=================Habilidades=================*/
-
+/*=============================================*/
 
 
 .container-habilidades {
@@ -365,6 +367,26 @@ section .txtHabilidade h2 {
 
 .icon-hab {
     max-width: 100%;
+}
+
+@media (max-width:650px) {
+
+    .descricao-hab {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .container-hab {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+        padding: 20px;
+    }
 }
 
 
